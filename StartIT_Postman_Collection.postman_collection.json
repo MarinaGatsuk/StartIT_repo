@@ -569,7 +569,6 @@
 						"id": "d08c9345-fbc9-4b0c-95d9-a6ae66abefdd",
 						"exec": [
 							"pm.test(\"Succeed to find newly added nationality in list \", function () {\r",
-							"var responseData = JSON.parse(responseBody);\r",
 							"pm.response.to.have.status(200)\r",
 							"});\r",
 							""
